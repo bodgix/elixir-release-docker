@@ -34,4 +34,3 @@ COPY .tool-versions /opt/build
 RUN \
   /bin/bash -i -c 'asdf install'
 
-

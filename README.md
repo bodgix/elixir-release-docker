@@ -5,7 +5,7 @@ A helper to cross-build Elixir projects for Linux as a target system.
 ## Synopsis
 
 ```
-cp * /path/to/your/elixir/project
+cp -r bin Makefile Dockerfile /path/to/your/elixir/project
 make
 ```
 
